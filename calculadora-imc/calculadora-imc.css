@@ -1,18 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+body{
+    background-color: rgb(5, 218, 255); 
+    margin: 0px;
+}
 header{
     text-align: center;
+    background-color: rgb(43, 201, 180);
+    padding: 5px;
+
 }
+header h1{
+    font-family: 'Domine', serif;
+}
+
 .calcular{
     margin: 10px 0px 0px 0px;
     font-size: 18px;
     border-radius: 10px;
-    border: rgba(238, 233, 233, 0);
+    border: hidden;
 }
 div p{
     font-size: 20px;
     
 }
 .calcular:hover {
-    background-color: aqua;
-    border: aqua;
+    background-color: rgb(0, 0, 0);
+    border: hidden;
+    color: white;
     
+}
+div p{
+    font-family: 'PT Serif', serif;
+}
+div input{
+    border-radius: 10px;
+    
+}
+
+main{
+  
+    padding:5px;
+
 }
