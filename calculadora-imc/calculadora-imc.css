@@ -1,3 +1,18 @@
+header{
+    text-align: center;
+}
 .calcular{
-    margin: 5px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: rgba(238, 233, 233, 0);
+}
+div p{
+    font-size: 20px;
+    
+}
+.calcular:hover {
+    background-color: aqua;
+    border: aqua;
+    
 }
