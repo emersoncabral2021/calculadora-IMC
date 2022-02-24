@@ -32,14 +32,15 @@ div p{
 }
 div p{
     font-family: 'PT Serif', serif;
+    
 }
 div input{
     border-radius: 10px;
     
 }
-
 main{
-  
     padding:5px;
-
+}
+#resultado{
+    font-size: 25px;
 }
